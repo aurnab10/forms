@@ -6,7 +6,7 @@
 
 body {
     background-color: #fafafa;
-    margin: 4.5% 20%;
+    margin: 4.5% 15%;
 }
 
 header {}
@@ -24,10 +24,11 @@ header h1 {
     justify-content: space-evenly;
     margin: auto;
     margin-bottom: 7%;
+    width: 86%;
 }
 
 .nav .box {
-    width: 25%;
+    width: 285px;
     text-align: center;
 }
 
@@ -77,12 +78,15 @@ header h1 {
 .form {
     display: flex;
     flex-flow: row wrap;
+    width: 86%;
+    justify-content: space-evenly;
+    margin: auto;
 }
 
 .form .info {
     background-color: white;
     padding: 4% 5% 8%;
-    width: 50%;
+    width: 575px;
 }
 
 .form .info h1 {
@@ -100,11 +104,11 @@ header h1 {
 }
 
 .form .info form .top .name {
-    width: 48%;
+    width: 275px;
 }
 
 .form .info form .top .mail {
-    width: 48%;
+    width: 275px;
 }
 
 label {
@@ -165,7 +169,7 @@ outline: none;
 border-bottom: 0.1rem solid #46b5d1;
 }
 .form .pic {
-    width: 40%;
+    width: 455px;
 }
 
 .form .pic img {
