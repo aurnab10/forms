@@ -6,7 +6,7 @@
 
 body {
     background-color: #FAFAFA;
-    margin: 6% 20%;
+    margin: 6% 15%;
 }
 
 
@@ -14,7 +14,8 @@ header h1 {
     font-weight: 400;
     text-align: center;
     font-size: 1.8rem;
-    margin: 5% 0;
+    margin: 5% auto;
+    width: 86%;
 }
 
 .nav {
@@ -23,10 +24,11 @@ header h1 {
     justify-content: space-evenly;
     margin: auto;
     margin-bottom: 7%;
+    width: 86%;
 }
 
 .nav .box {
-    width: 25%;
+    width: 285px;
     text-align: center;
 }
 
@@ -68,12 +70,14 @@ header h1 {
     display: flex;
     flex-flow: row wrap;
     margin: 1.7% auto;
+    justify-content: space-evenly;
+    width: 86%;
 }
 
 .form .info {
     background-color: #E8EDF0;
     padding: 4% 5% 8%;
-    width: 48%;
+    width: 550px;
 }
 
 .form .info h1 {
@@ -152,7 +156,7 @@ background-color: #1C408E;
 outline: none;
 }
 .form .map {
-    width: 42%;
+    width: 480px;
 }
 
 .form .map iframe {
