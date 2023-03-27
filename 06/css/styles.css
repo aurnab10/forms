@@ -6,7 +6,7 @@
 
 body {
     background-color: #FAFAFA;
-    margin: 6% 15%;
+    margin: 6% auto;
 }
 
 
@@ -15,16 +15,16 @@ header h1 {
     text-align: center;
     font-size: 1.8rem;
     margin: 5% auto;
-    width: 86%;
+    width: 60%;
 }
 
 .nav {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     margin: auto;
     margin-bottom: 7%;
-    width: 86%;
+    width: 100%;
 }
 
 .nav .box {
@@ -70,13 +70,13 @@ header h1 {
     display: flex;
     flex-flow: row wrap;
     margin: 1.7% auto;
-    justify-content: space-evenly;
-    width: 86%;
+    justify-content: center;
+    width: 100%;
 }
 
 .form .info {
     background-color: #E8EDF0;
-    padding: 4% 5% 8%;
+    padding: 3%;
     width: 550px;
 }
 
@@ -93,11 +93,11 @@ header h1 {
 }
 
 .form .info form .top .name {
-    width: 45%;
+    width: 245px;
 }
 
 .form .info form .top .mail {
-    width: 45%;
+    width: 245px;
 }
 
 label {
