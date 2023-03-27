@@ -26,7 +26,7 @@ header h1 {
 }
 
 .nav .box {
-    width: 285px;
+    width: 25%;
     text-align: center;
 }
 
@@ -73,7 +73,7 @@ header h1 {
 .form .info {
     background-color: #E8EDF0;
     padding: 4% 5% 8%;
-    width: 550px;
+    width: 48%;
 }
 
 .form .info h1 {
@@ -89,11 +89,11 @@ header h1 {
 }
 
 .form .info form .top .name {
-    width: 250px;
+    width: 45%;
 }
 
 .form .info form .top .mail {
-    width: 250px;
+    width: 45%;
 }
 
 label {
@@ -152,7 +152,7 @@ background-color: #1C408E;
 outline: none;
 }
 .form .map {
-    width: 477px;
+    width: 42%;
 }
 
 .form .map iframe {
