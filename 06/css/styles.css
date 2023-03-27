@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #FAFAFA;
+    margin: 6% 20%;
+}
+
+
+header h1 {
+    font-weight: 400;
+    text-align: center;
+    font-size: 1.8rem;
+    margin: 5% 0;
+}
+
+.nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-bottom: 7%;
+}
+
+.nav .box {
+    width: 285px;
+    text-align: center;
+}
+
+.nav .box .icon {
+    background-color: #2553B8;
+    width: 1.8rem;
+    height: 1.8rem;
+    padding: 6%;
+    border-radius: 50%;
+    margin: 10% auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav .box .icon i {
+    color: #ffffff;
+
+    font-size: 1.2rem;
+}
+
+.nav .box p {
+    color: #666666;
+
+    overflow-wrap: break-word;
+}
+
+.nav .box p span {
+    font-weight: 600;
+    color: black;
+}
+
+.nav .box p a {
+    text-decoration: none;
+    color: #2553B8;
+}
+
+.form {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 1.7% auto;
+}
+
+.form .info {
+    background-color: #E8EDF0;
+    padding: 4% 5% 8%;
+    width: 550px;
+}
+
+.form .info h1 {
+    font-weight: 400;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+}
+
+.form .info form .top {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.form .info form .top .name {
+    width: 250px;
+}
+
+.form .info form .top .mail {
+    width: 250px;
+}
+
+label {
+    font-weight: 600;
+    font-size: 0.75rem;
+}
+
+input {
+    width: 100%;
+    border: none;
+    border-bottom: 0.1rem solid #e7e7e7;
+    padding: 0.6rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+
+input::placeholder {
+    color: #b2b2b2;
+    font-weight: 300;
+    font-size: 1rem;
+}
+input:focus{
+
+outline: none;
+}
+.form .info form input[type="submit"] {
+    width: 9rem;
+    margin-top: 0.8rem;
+    padding: 0.75rem;
+    background-color: #2553B8;
+    color: white;
+    border-radius: 0.3rem;
+}
+.form .info form input[type="submit"]:hover{
+    
+background-color: #1C408E;
+}
+.form .info form textarea {
+    width: 100%;
+    border: none;
+    border-bottom: 0.1rem solid #e7e7e7;
+    padding: 0.6rem;
+    resize: none;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+
+.form .info form textarea::placeholder {
+    color: #b2b2b2;
+    font-weight: 300;
+    font-size: 1rem;
+}
+.form .info form textarea:focus{
+
+outline: none;
+}
+.form .map {
+    width: 477px;
+}
+
+.form .map iframe {
+    width: 100%;
+
+    height: 100%;
+}
