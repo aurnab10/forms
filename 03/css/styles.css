@@ -6,10 +6,8 @@
 
 body {
     background-color: #fafafa;
-    margin: 4.5% 15%;
+    margin: 4.5% auto;
 }
-
-header {}
 
 header h1 {
     font-weight: 400;
@@ -21,10 +19,10 @@ header h1 {
 .nav {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     margin: auto;
-    margin-bottom: 7%;
-    width: 86%;
+    margin-bottom: 4%;
+    width: 100%;
 }
 
 .nav .box {
@@ -78,15 +76,15 @@ header h1 {
 .form {
     display: flex;
     flex-flow: row wrap;
-    width: 86%;
-    justify-content: space-evenly;
+    width: 100%;
+    justify-content: center;
     margin: auto;
 }
 
 .form .info {
     background-color: white;
-    padding: 4% 5% 8%;
-    width: 575px;
+    padding: 3%;
+    width: 610px;
 }
 
 .form .info h1 {
@@ -169,7 +167,7 @@ outline: none;
 border-bottom: 0.1rem solid #46b5d1;
 }
 .form .pic {
-    width: 455px;
+    width: 415px;
 }
 
 .form .pic img {
