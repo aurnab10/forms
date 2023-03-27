@@ -18,18 +18,27 @@ header h1 {
 }
 
 .form .contact{
-width: 390px;
-overflow-wrap: break-word;
-padding: 4%;
-background-color: #1C1E25;
-border-radius: 0 2% 2% 0;
+
+width: 41%;
+
+overflow-wrap: break-word;
+
+padding: 4%;
+
+background-color: #1C1E25;
+
+border-radius: 0 2% 2% 0;
 }
 
 .form .contact h3{
-font-weight: 400;
-font-size: 1.2rem;
-margin-bottom: 1rem;
-color: white;
+
+font-weight: 400;
+
+font-size: 1.2rem;
+
+margin-bottom: 1rem;
+
+color: white;
 }
 
 .form .contact .chat{
@@ -89,7 +98,7 @@ p a {
 .form .info {
     background-color: #272A34;
     padding: 4% 5% 8%;
-    width: 390px;
+    width: 41%;
     border-radius: 2% 0 0 2%;
 }
 
@@ -134,7 +143,8 @@ border-bottom-color: #bbbbbb;
     border-radius: 0.3rem;
 }
 .form .info form input[type="submit"]:hover{
-    background-color: #D67A0C;
+    
+background-color: #D67A0C;
 }
 .form .info form textarea {
     color: #D4D4D6;
